@@ -1,0 +1,6 @@
+mochawesome-report
+.vscode
+.atom
+.DS_Store
+node_modules
+dist

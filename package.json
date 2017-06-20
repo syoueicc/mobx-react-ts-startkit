@@ -1,45 +1,20 @@
 {
-  "name": "paladin",
+  "name": "mobx-react-ts-startkit",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config build/webpack.base.js",
-    "test": "mocha ts-node/register test/**/*.{spec,test}.{ts,tsx} --opts ./test/mocha.opts"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cancelv5/mobx-react-ts-startkit.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@types/chai": "^4.0.0",
-    "@types/enzyme": "^2.8.0",
-    "@types/mocha": "^2.2.41",
-    "awesome-typescript-loader": "^3.1.3",
-    "chai": "^4.0.2",
-    "css-loader": "^0.28.4",
-    "enzyme": "^2.8.2",
-    "file-loader": "^0.11.2",
-    "html-webpack-plugin": "^2.28.0",
-    "mobx-react-devtools": "^4.2.13",
-    "mocha": "^3.4.2",
-    "mochawesome": "^2.2.1",
-    "react-addons-test-utils": "^15.6.0",
-    "source-map-loader": "^0.2.1",
-    "style-loader": "^0.18.2",
-    "ts-node": "^3.0.6",
-    "typescript": "^2.3.4",
-    "webpack": "^2.6.1",
-    "webpack-dev-server": "^2.4.5"
+  "bugs": {
+    "url": "https://github.com/cancelv5/mobx-react-ts-startkit/issues"
   },
-  "dependencies": {
-    "@types/lodash": "^4.14.66",
-    "@types/node": "^7.0.31",
-    "@types/react": "^15.0.28",
-    "@types/react-dom": "^15.5.0",
-    "lodash": "^4.17.4",
-    "mobx": "^3.1.11",
-    "mobx-react": "^4.2.1",
-    "react": "^15.6.0",
-    "react-dom": "^15.6.0"
-  }
+  "homepage": "https://github.com/cancelv5/mobx-react-ts-startkit#readme"
 }
