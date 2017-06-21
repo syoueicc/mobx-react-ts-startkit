@@ -1,5 +1,5 @@
 {
-  "name": "paladin",
+  "name": "<%projectname%>",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "mocha ts-node/register test/**/*.{spec,test}.{ts,tsx} --opts ./test/mocha.opts"
   },
   "keywords": [],
-  "author": "",
+  "author": "<%author%>",
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.0.0",
